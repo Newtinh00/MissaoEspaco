@@ -1,0 +1,112 @@
+body{
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	background: #040404;
+	font-family: 'Raleway', sans-serif;
+	overflow-x: hidden;
+
+}
+
+html{
+	margin: -25px;
+	padding: 0px;
+}
+
+.menu{
+	right: 0px;
+	top: 0px;
+	position: fixed;
+	width: 60px;
+	height: 60px;	
+	background-color: #E4734F;
+	border-bottom-left-radius: 25px;
+	margin: 0px;
+	cursor: pointer;
+}
+
+.menu img{
+	margin-top: 16px;
+	margin-left: 20px;
+	width: 25px;
+	height: 25px;
+}
+
+.lista-planetas{
+	background-color: #E4734F;
+	list-style: none;
+	right: 0px;
+	top: -18px;
+	position: absolute;
+	padding-top: 60px;
+	text-align: center;
+	min-height: 800px;
+	padding-left: 50px;
+	padding-right: 50px;
+	z-index: -1;
+}
+
+.lista-planetas li{
+	margin-bottom: 12px;
+}
+
+.lista-planetas li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+}
+
+.lista-planetas li:hover a{
+	color: #10100F;
+	transition: all .4s;
+}
+
+.content{
+	width: 100%;
+	min-height: 105vh;
+	background: #10100F;
+	color: #fff;
+	top: -80px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0px;
+	background-image: url(../Img/lua.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.descricao{
+	text-transform: none;
+	padding: 12rem 18rem 0px 18rem;
+	font-weight: 00;
+	text-shadow: 10px 5px 8px #000;
+}
+
+.descricao h1{
+ 	font-size: 30px;
+
+}
+
+.descricao h2{
+	font-size: 25px;
+}
+
+.content button{
+	background: transparent;
+	color: #E4734F;
+	border: 1px solid #E4734F;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 22px;
+	cursor: pointer;
+	margin-top: 20px;
+	font-weight: 0;
+}
+
+.content button:hover{
+	background: #E4734F;
+	transition: all .4s;
+	color:#fff;
+}
+
