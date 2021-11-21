@@ -13,8 +13,16 @@ html{
 	padding: 0px;
 }
 
-.menu{
+#menu:checked ~ .menu{
 	right: 0px;
+}
+
+#menu{
+	display: none;
+}
+
+.menu{
+	right: -201px;
 	top: 0px;
 	position: fixed;
 	width: 60px;
@@ -23,13 +31,23 @@ html{
 	border-bottom-left-radius: 25px;
 	margin: 0px;
 	cursor: pointer;
+	transition: all .4s;
 }
 
-.menu img{
-	margin-top: 16px;
-	margin-left: 20px;
-	width: 25px;
-	height: 25px;
+label{
+
+}
+
+.img-menu{
+	width: 30px;
+	height: 30px;
+	background-color: #E4734F;
+	border: 6px solid #E4734F;
+	cursor:pointer;
+	top: 5px;
+	right: 10px;
+	position: fixed;
+	z-index: 1;
 }
 
 .lista-planetas{
@@ -90,9 +108,10 @@ html{
 
 .descricao h2{
 	font-size: 25px;
+	margin-bottom: 40px;
 }
 
-.content button{
+.content a{
 	background: transparent;
 	color: #E4734F;
 	border: 1px solid #E4734F;
@@ -100,11 +119,11 @@ html{
 	padding: 10px;
 	font-size: 22px;
 	cursor: pointer;
-	margin-top: 20px;
+	margin-top: 0px;
 	font-weight: 0;
 }
 
-.content button:hover{
+.content a:hover{
 	background: #E4734F;
 	transition: all .4s;
 	color:#fff;
